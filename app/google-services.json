@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "287224355847",
+    "firebase_url": "https://gatewaymoon-f41ce.firebaseio.com",
+    "project_id": "gatewaymoon-f41ce",
+    "storage_bucket": "gatewaymoon-f41ce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:287224355847:android:c8f264d5b0efe065a41ea2",
+        "android_client_info": {
+          "package_name": "lunainc.com.mx.gatewaymoon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "287224355847-eug977pfegl1c929mo84kdu2en5tuhli.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuM-v-fou80OCi6HijIHGIDtG04iRxifk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "287224355847-eug977pfegl1c929mo84kdu2en5tuhli.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

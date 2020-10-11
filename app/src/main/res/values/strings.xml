@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">GatewayMoon</string>
+    <string name="register_device">Registrar dispositivo</string>
+    <string name="token_web_app">xjMKAEmoOWjdTj8UYK0xysaONPC6X5JWY9yz7bdO</string>
+    <string name="default_notification_channel_id">gatewaymoonappnotification</string>
+
+</resources>
