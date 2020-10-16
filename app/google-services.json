@@ -1,34 +1,79 @@
 {
   "project_info": {
-    "project_number": "287224355847",
-    "firebase_url": "https://gatewaymoon-f41ce.firebaseio.com",
-    "project_id": "gatewaymoon-f41ce",
-    "storage_bucket": "gatewaymoon-f41ce.appspot.com"
+    "project_number": "975440930697",
+    "firebase_url": "https://megah-51504.firebaseio.com",
+    "project_id": "megah-51504",
+    "storage_bucket": "megah-51504.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:287224355847:android:c8f264d5b0efe065a41ea2",
+        "mobilesdk_app_id": "1:975440930697:android:a75a177ba6f0a17ec9a358",
         "android_client_info": {
           "package_name": "lunainc.com.mx.gatewaymoon"
         }
       },
       "oauth_client": [
         {
-          "client_id": "287224355847-eug977pfegl1c929mo84kdu2en5tuhli.apps.googleusercontent.com",
+          "client_id": "975440930697-lbvbq6ivtc40dfht0s36i9l34ss2hfhq.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCuM-v-fou80OCi6HijIHGIDtG04iRxifk"
+          "current_key": "AIzaSyBk_eH2oZ0tqVMRZQW0zSDTcmfZdlxxjuU"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "287224355847-eug977pfegl1c929mo84kdu2en5tuhli.apps.googleusercontent.com",
+              "client_id": "975440930697-lbvbq6ivtc40dfht0s36i9l34ss2hfhq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:975440930697:android:f7cd4c62beb14437c9a358",
+        "android_client_info": {
+          "package_name": "megah.com.mx.megahdevice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "975440930697-fthn2ug9la5efstbg3vaq2b3rk99im66.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "megah.com.mx.megahdevice",
+            "certificate_hash": "093e73790e29e3911d1b272ea45ad68ed5df412c"
+          }
+        },
+        {
+          "client_id": "975440930697-42pdsgtgq6p6g9luv7fisp46svij4046.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "megah.com.mx.megahdevice",
+            "certificate_hash": "d7579c63ff1e2eab6bb78be8f9d76bb31741a274"
+          }
+        },
+        {
+          "client_id": "975440930697-lbvbq6ivtc40dfht0s36i9l34ss2hfhq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBk_eH2oZ0tqVMRZQW0zSDTcmfZdlxxjuU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "975440930697-lbvbq6ivtc40dfht0s36i9l34ss2hfhq.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
