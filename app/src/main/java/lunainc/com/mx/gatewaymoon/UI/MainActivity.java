@@ -120,7 +120,9 @@ public class MainActivity extends AppCompatActivity implements SmsListener {
 
 
         SmsManager smsManager = SmsManager.getDefault();
-        smsManager.sendTextMessage(event.getPhone(), null, event.getMessage(), null, null);
+
+        String message = event.getName()+" solicito la siguiente bebida: "+event.getBebida()+" con el siguiente estado: "+event.getEstado_refill();
+        smsManager.sendTextMessage("+527891005104", null, message, null, null);
         Toast.makeText(getApplicationContext(), "SMS sent.",
                 Toast.LENGTH_LONG).show();
 

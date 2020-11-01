@@ -4,7 +4,7 @@ public class ApiUtils {
 
     private ApiUtils() {}
 
-    private static final String BASE_URL = "http://192.168.1.68:8080";
+    private static final String BASE_URL = "https://hugofest.fun";
 
 
     public static APIService getAPIService() {

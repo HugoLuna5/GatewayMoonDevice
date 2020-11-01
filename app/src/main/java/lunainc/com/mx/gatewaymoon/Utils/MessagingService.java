@@ -88,8 +88,12 @@ public class MessagingService extends FirebaseMessagingService {
         PendingIntent resultPendingIntent = stackBuilder.getPendingIntent(0, PendingIntent.FLAG_CANCEL_CURRENT);
         notification.setContentIntent(resultPendingIntent);
 
-        EventBus.getDefault().post(new MessageEvent(remoteMessage.getData().get("phone"),
-                remoteMessage.getData().get("message")));
+        if (remoteMessage.getData().get("type").equals("noti_pedido")){
+            EventBus.getDefault().post(new MessageEvent(remoteMessage.getData().get("phone"),
+                    remoteMessage.getData().get("bebida"), remoteMessage.getData().get("estado_refill"), remoteMessage.getData().get("name")));
+        }
+
+
 
 
         Objects.requireNonNull(notificationManager).notify(0, notification.build());

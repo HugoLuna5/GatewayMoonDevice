@@ -4,15 +4,21 @@ public class MessageEvent {
 
     public String phone;
 
-    public String message;
+    public String bebida;
+
+    public String estado_refill;
+
+    public String name;
 
 
     public MessageEvent() {
     }
 
-    public MessageEvent(String phone, String message) {
+    public MessageEvent(String phone, String bebida, String estado_refill, String name) {
         this.phone = phone;
-        this.message = message;
+        this.bebida = bebida;
+        this.estado_refill = estado_refill;
+        this.name = name;
     }
 
     public String getPhone() {
@@ -23,11 +29,27 @@ public class MessageEvent {
         this.phone = phone;
     }
 
-    public String getMessage() {
-        return message;
+    public String getBebida() {
+        return bebida;
     }
 
-    public void setMessage(String message) {
-        this.message = message;
+    public void setBebida(String bebida) {
+        this.bebida = bebida;
+    }
+
+    public String getEstado_refill() {
+        return estado_refill;
+    }
+
+    public void setEstado_refill(String estado_refill) {
+        this.estado_refill = estado_refill;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 }
